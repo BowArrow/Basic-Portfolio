@@ -25,6 +25,7 @@ nav{
     width: 900px;
     line-height:30px;
     margin:auto;
+    margin-bottom: 30px;
 }
 
 .clearfix::after {
@@ -116,6 +117,11 @@ nav{
 .box:hover .box-text{
     visibility: visible;
     opacity: 0.7;
+}
+
+.footer{
+    height: 50px;
+    margin-top: -50px;
 }
 
 *{
