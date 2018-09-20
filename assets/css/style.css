@@ -1,5 +1,5 @@
 body{
-    background-image: url("../../assets/images/gravel.png");
+    background-image: url("../../assets/images/qbkls.png");
     background-repeat: repeat;
 }
 
@@ -12,8 +12,7 @@ nav{
     top: 0;
     margin-bottom:100px;
     background-color: #ffffff;
-    border-bottom: 1px;
-    border-color: #cccccc;
+    box-shadow: 1px 3px 3px #cccccc;
     z-index: 1;
 }
 
