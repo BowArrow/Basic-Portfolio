@@ -14,6 +14,7 @@ nav{
     background-color: #ffffff;
     box-shadow: 1px 3px 3px #cccccc;
     z-index: 1;
+    overflow:hidden;
 }
 
 .about{
@@ -21,10 +22,14 @@ nav{
 }
 
 .aboutMe{
-    width: 900px;
+    width: 890px;
     line-height:30px;
     margin:auto;
     margin-bottom: 30px;
+}
+
+.aboutMe p{
+    margin-top: 25px;
 }
 
 .clearfix::after {
@@ -36,7 +41,25 @@ nav{
 .clinks{
     float: right;
     line-height: 90px;
+    width: 230;
     z-index: 2;
+    transition: 0.5s;
+}
+
+.clinks a{
+    position: relative;
+    background-color: white;
+    height: 100%;
+    padding: 100% 15px 100% 15px;
+    /* padding-top:100%;
+    padding-bottom: 100%;
+    padding-right: 15px;
+    padding-left: 15px; */
+    transition: .2s;
+}
+
+.clinks a:hover {
+    background-color: #dfdfdf;
 }
 
 .container{
@@ -172,15 +195,6 @@ a:link, a:visited, a:hover, a:active{
     color:  #777777;
 }
 
-#about{
-    padding: 15px;
-    padding-right: 0;
-}
-
-#contact{
-    padding:15px;
-}
-
 #logo{
     position: relative;
     float: left;
@@ -194,11 +208,6 @@ a:link, a:visited, a:hover, a:active{
     line-height: 90px;
 }
 
-#portfolio{
-    padding: 15px;
-    
-}
-
 #self{
     position: relative;
     float: left;
@@ -207,4 +216,5 @@ a:link, a:visited, a:hover, a:active{
     height: 200px;
 }
 
-#preload-01 { background: url(../../assets/images/dontfeelgood.png) no-repeat -9999px -9999px;} 
+#preload-01 { background: url(../../assets/images/dontfeelgood.png) no-repeat -9999px -9999px;}
+
